@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Student</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            width: 350px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 95%;
+            padding: 10px;
+            background: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h2>Edit Student</h2>
+    <a class="home-btn" href="home">Home</a>
+
+    <!-- IMPORTANT -->
+    <form action="updateStudent" method="post">
+
+        <input type="hidden" name="id" value="1">
+
+        <input type="text" name="name" placeholder="Enter Name">
+        <input type="number" name="age" placeholder="Enter Age">
+        <input type="text" name="email" placeholder="Enter Email">
+        <input type="text" name="course" placeholder="Enter Course">
+
+        <button type="submit">Update</button>
+
+    </form>
+</div>
+
+</body>
+</html>

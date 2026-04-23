@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #f4f6f9);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADINGS */
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* =========================
+   DASHBOARD LINKS (Buttons)
+========================= */
+a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 6px;
+    font-weight: bold;
+    color: white;
+    transition: 0.2s;
+}
+
+/* Add Student */
+a[href*="add"] {
+    background-color: #4CAF50;
+}
+
+/* View Students */
+a[href*="view"] {
+    background-color: #2196F3;
+}
+
+/* Logout */
+a[href*="logout"] {
+    background-color: #f44336;
+}
+
+/* Edit Button */
+a[href*="edit"] {
+    background-color: #2196F3;
+}
+
+/* Delete Button */
+a[href*="delete"] {
+    background-color: #e53935;
+}
+
+/* Hover effect for all buttons */
+a:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+}
+
+/* =========================
+        TABLE STYLING
+========================= */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* =========================
+        FORM STYLING
+========================= */
+form {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 6px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4CAF50;
+}
+
+/* =========================
+        BUTTONS
+========================= */
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.home-btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+}
+
+.home-btn:hover {
+    opacity: 0.85;
+}
+/* =========================
+   LOGIN / CARD SUPPORT (optional)
+========================= */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
