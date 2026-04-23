@@ -9,6 +9,7 @@ target/
 
 # IntelliJ IDEA
 .idea/
+.smarttomcat/
 *.iml
 
 # Package files
